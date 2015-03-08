@@ -2,7 +2,7 @@
 
 int power(int m, int n);
 
-/* test power function */
+// test power function
 int main(void)
 {
     int i;
@@ -12,7 +12,8 @@ int main(void)
     return 0;
 }
 
-/* power: raise base to n-th power; n >= 0 */
+/*
+// power: raise base to n-th power; n >= 0
 int power(int base, int n)
 {
     int i, p;
@@ -21,4 +22,15 @@ int power(int base, int n)
     for (i = 0; i < n; ++i)
         p *= base;
     return p;
+}
+*/
+
+// power: raise base to n-th power; n >= 0; version 2
+int power(int base, int n)
+{
+	int p;
+
+	for (p = 1; n > 0; --n)
+		p *= base;
+	return p;
 }
