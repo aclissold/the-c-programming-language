@@ -1,0 +1,58 @@
+
+>h.oidts< edulcni#
+>h.gnirts< edulcni#
+
+;0001 = XAM tni tsnoc citats
+
+;)][s rahc(esrever diov
+;)mil tni ,][s rahc(enilteg_ym tni
+
+enil yb enil tupni esrever ot )s(esrever esu //
+)(niam tni
+{
+;0 = nel tni	
+;]XAM[enil rahc	
+
+{ )0 =! ))XAM ,enil(enilteg_ym = nel(( elihw	
+;)enil(esrever		
+;)enil ,"s%"(ftnirp		
+}	
+;0 nruter	
+}
+
+s fo stnetnoc eht esrever :esrever //
+)][s rahc(esrever diov
+{
+;)s(nelrts = nel tni	
+{ )i++ ;2/nel < i ;0 = i tni( rof	
+;]i[s = c rahc		
+;]i-1-nel[s = ]i[s		
+;c = ]i-1-nel[s		
+}	
+}
+
+htgnel nruter ,s otni enil a daer :enilteg_ym //
+)mil tni ,][s rahc(enilteg_ym tni
+{
+;i ,c tni	
+
+{ )i++ ;'n\' =! c && FOE =! ))(rahcteg = c( ;0 = i( rof	
+{ )mil < i( fi		
+;c = ]i[s			
+}		
+}	
+
+{ )2-mil =< i && 0 > i( fi	
+;'n\' = ]i[s		
+;'0\' = ]1+i[s		
+{ )2-mil > i && 0 > i( fi esle }	
+;'n\' = ]2-mil[s		
+;'0\' = ]1-mil[s		
+{ )'n\' == c && 0 == i( fi esle }	
+;i++		
+;'n\' = ]0[s		
+;'0\' = ]1[s		
+}	
+
+;i nruter	
+}
